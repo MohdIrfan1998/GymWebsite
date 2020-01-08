@@ -1,0 +1,98 @@
+body {
+  color: white;
+  font-family: "Baloo Bhai", cursive;
+  margin: 0px;
+  padding: 0px;
+  background: url("../img/people-2604149_960_720.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.left {
+  /* border: 2px solid red; */
+  display: inline-block;
+  position: absolute;
+  left: 34px;
+  top: 18px;
+}
+.left img {
+  width: 120px;
+}
+
+.mid {
+  /* border: 2px solid green; */
+  display: block;
+  margin: 18px auto;
+  width: 36%;
+}
+
+.right {
+  /* border: 2px solid yellow; */
+  display: inline-block;
+  position: absolute;
+  right: 34px;
+  top: 26px;
+}
+
+.navbar {
+  display: inline-block;
+}
+.navbar li {
+  display: inline-block;
+  font-size: 17px;
+}
+
+.navbar li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 34px 23px;
+}
+
+.navbar li a:hover {
+  color: greenyellow;
+}
+
+.btn {
+  background-color: black;
+  font-family: "Baloo Bhai", cursive;
+  border: 2px solid grey;
+  border-radius: 9px;
+  color: white;
+  cursor: pointer;
+  font-size: 15px;
+  margin: 0px 9px;
+  padding: 4px 14px;
+}
+
+.btn:hover {
+  color: aqua;
+}
+
+.container {
+  border: 2px solid white;
+  margin: 160px 60px;
+  padding: 75px;
+  width: 33%;
+  border-radius: 35px;
+}
+
+.form-group input {
+  border: 2px solid black;
+  border-radius: 8px;
+  display: block;
+  width: 400px;
+  padding: 5px;
+  text-align: center;
+  margin: 2px auto;
+  font-size: 20px;
+}
+
+.container h1 {
+  text-align: center;
+}
+
+.container button {
+  display: block;
+  width: 23%;
+  margin: 10px auto;
+}
